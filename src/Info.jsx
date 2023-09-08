@@ -83,7 +83,7 @@ export default function Info() {
               <h3 className="text-2xl text-slate-800 font-medium dark:text-sky-900">
                 {project.title}
               </h3>
-              <p className="text-md leading-6 text-slate-600 dark:text-sky-900">
+              <p className="text-md leading-6 text-slate-600 dark:text-sky-900  break-words">
                 {project.description}
               </p>
               <a
