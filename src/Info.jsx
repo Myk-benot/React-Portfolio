@@ -68,10 +68,10 @@ export default function Info() {
       <h3 className="text-center text-2xl text-slate-800 font-medium dark:text-yellow-100">
         Projects:
       </h3>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {projectsData.map((project) => (
           <div
-            className="m-8 text-center flex flex-col items-center shadow-lg p-2 rounded-xl max-h-96 min-w-fit dark:bg-yellow-50 "
+            className="m-4 text-center flex flex-col items-center shadow-lg p-2 rounded-xl min-w-[250px] dark:bg-yellow-50"
             key={project.title}
           >
             <img
@@ -79,30 +79,31 @@ export default function Info() {
               src={project.imageSrc}
               alt={project.title}
             />
-            <div className=" grid grid-cols-1 text-center md:text-center m-2">
+            <div className="text-center m-2">
               <h3 className="text-2xl text-slate-800 font-medium dark:text-sky-900">
                 {project.title}
               </h3>
-              <p className="text-md leading-6 text-slate-600 dark:text-sky-900  break-words">
+              <p className="text-md leading-6 text-slate-600 dark:text-sky-900 break-words">
                 {project.description}
               </p>
-              <a
-                href={project.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-md text-slate-800 dark:text-sky-900"
-              >
-                View Project
-              </a>
-
-              <a
-                href={project.live}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-md text-slate-800 dark:text-sky-900"
-              >
-                View Live
-              </a>
+              <div className="flex flex-col">
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-md text-slate-800 dark:text-sky-900"
+                >
+                  View Project
+                </a>
+                <a
+                  href={project.live}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-md text-slate-800 dark:text-sky-900"
+                >
+                  View Live
+                </a>
+              </div>
             </div>
           </div>
         ))}
