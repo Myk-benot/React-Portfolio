@@ -1,4 +1,5 @@
 import React from "react";
+import { motion, useAnimate, stagger } from "framer-motion";
 import image2 from "./images/image2.jpg";
 import projectsData from "./Data.jsx";
 import {
@@ -68,14 +69,14 @@ export default function Info() {
       <h3 className="text-center text-2xl text-slate-800 font-medium dark:text-yellow-100">
         Projects:
       </h3>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className=" my-12 mx-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 place-items-center ">
         {projectsData.map((project) => (
           <div
-            className="m-4 text-center flex flex-col items-center shadow-lg p-2 rounded-xl min-w-[250px] dark:bg-yellow-50"
+            className=" text-center flex flex-col items-center  shadow-lg p-2 rounded-xl min-w-full dark:bg-yellow-50"
             key={project.title}
           >
             <img
-              className="rounded-md mb-4 h-40 w-40 object-cover"
+              className="rounded-md mb-4 h-48 w-48 object-fit"
               src={project.imageSrc}
               alt={project.title}
             />
@@ -83,7 +84,7 @@ export default function Info() {
               <h3 className="text-2xl text-slate-800 font-medium dark:text-sky-900">
                 {project.title}
               </h3>
-              <p className="text-md leading-6 text-slate-600 dark:text-sky-900 break-words">
+              <p className=" text-base leading-6 text-slate-600 dark:text-sky-900 break-words">
                 {project.description}
               </p>
               <div className="flex flex-col">
