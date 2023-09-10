@@ -1,5 +1,4 @@
 import React from "react";
-import { motion, useAnimate, stagger } from "framer-motion";
 import image2 from "./images/image2.jpg";
 import projectsData from "./Data.jsx";
 import {
