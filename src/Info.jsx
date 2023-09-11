@@ -71,7 +71,7 @@ export default function Info() {
       <div className=" my-12 mx-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 place-items-center ">
         {projectsData.map((project) => (
           <div
-            className=" text-center flex flex-col items-center  shadow-lg p-2 rounded-xl min-w-full dark:bg-yellow-50"
+            className=" text-center flex flex-col items-center shadow-lg p-2 rounded-xl min-w-full dark:bg-yellow-50"
             key={project.title}
           >
             <img
@@ -86,7 +86,7 @@ export default function Info() {
               <p className=" text-base leading-6 text-slate-600 dark:text-sky-900 break-words">
                 {project.description}
               </p>
-              <div className="flex flex-col">
+              <div className="flex flex-col gap-2 mt-2">
                 <a
                   href={project.link}
                   target="_blank"
@@ -99,7 +99,7 @@ export default function Info() {
                   href={project.live}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-md text-slate-800 dark:text-sky-900"
+                  className="text-md text-slate-800 dark:text-sky-900 dark:hover:text-red-600 hover:text-lime-500 "
                 >
                   View Live
                 </a>
