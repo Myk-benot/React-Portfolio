@@ -3,7 +3,7 @@ import colorGenImage from "./images/ColorGen-js.png";
 import movieListImage from "./images/Movielist-js.png";
 import quizAppImage from "./images/Quiz-App-React.png";
 import ukraineBlogImage from "./images/Ukraine2.jpeg";
-import reactBeerApiImage from "./images/question-mark.jpg";
+import reactBeerApiImage from "./images/brew.png";
 
 const projectsData = [
   {
@@ -45,8 +45,8 @@ const projectsData = [
     title: "React-Beer API",
     description: "React,Tailwind,Route Form.",
     imageSrc: reactBeerApiImage,
-    link: "#",
-    live: "#",
+    link: "https://github.com/Myk-benot/Brew",
+    live: "https://myk-brews.netlify.app/",
   },
 ];
 
