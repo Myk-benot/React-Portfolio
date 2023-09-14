@@ -43,10 +43,11 @@ export default function Info() {
           About Me
         </h3>
         <p className="mt-12 mb-24  text-md sm:text-lg md:text-lg lg:text-xl leading-6 sm:leading-8 text-slate-800 text-left dark:text-yellow-100 font-custom">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore earum
-          assumenda neque quam sit, odit iusto. Id libero eligendi explicabo
-          exercitationem velit a, non reprehenderit nesciunt suscipit,
-          voluptatum aspernatur culpa?
+          "Hello, I'm Michael Reutzel, a front-end web developer. I specialize
+          in HTML, CSS, and JavaScript, and I'm committed to creating functional
+          and responsive websites. My goal is to continually learn and grow as a
+          developer while delivering clean, user-friendly web solutions. Feel
+          free to browse my portfolio to see examples of my work."
         </p>
       </div>
 
