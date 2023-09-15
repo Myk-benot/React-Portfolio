@@ -43,7 +43,7 @@ const projectsData = [
   },
   {
     title: "React-Beer API",
-    description: "React,Tailwind,Route Form.",
+    description: "React,Tailwind,Hook-Form.",
     imageSrc: reactBeerApiImage,
     link: "https://github.com/Myk-benot/Brew",
     live: "https://myk-brews.netlify.app/",

@@ -76,7 +76,7 @@ export default function Info() {
             key={project.title}
           >
             <img
-              className="rounded-md mb-4 h-48 w-48 object-fit"
+              className="rounded-md mb-4 h-48 w-48 object-contain"
               src={project.imageSrc}
               alt={project.title}
             />
@@ -92,7 +92,7 @@ export default function Info() {
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-md text-slate-800 dark:text-sky-900"
+                  className="text-md text-slate-800 dark:text-sky-900 dark:hover:text-lime-500 hover:text-lime-500 "
                 >
                   View Project
                 </a>
@@ -100,7 +100,7 @@ export default function Info() {
                   href={project.live}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-md text-slate-800 dark:text-sky-900 dark:hover:text-red-600 hover:text-lime-500 "
+                  className="text-md text-slate-800 dark:text-sky-900 dark:hover:text-lime-500 hover:text-lime-500 "
                 >
                   View Live
                 </a>
