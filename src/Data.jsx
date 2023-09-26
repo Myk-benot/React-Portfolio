@@ -1,5 +1,5 @@
 import todoImage from "./images/todo-js.png";
-import colorGenImage from "./images/ColorGen-js.png";
+import amorphisImage from "./images/trans-anchor.png";
 import movieListImage from "./images/Movielist-js.png";
 import quizAppImage from "./images/Quiz-App-React.png";
 import ukraineBlogImage from "./images/Ukraine2.jpeg";
@@ -14,11 +14,11 @@ const projectsData = [
     live: "https://myk-todo-list.netlify.app",
   },
   {
-    title: "ColorGenerator",
-    description: "Html,CSS,Javascript,API",
-    imageSrc: colorGenImage,
-    link: "https://github.com/Myk-benot/Color-Gen",
-    live: "https://myk-color-gen.netlify.app",
+    title: "Amorphis Spotify",
+    description: "Tailwind,React,API",
+    imageSrc: amorphisImage,
+    link: "https://github.com/Myk-benot/Amorphis",
+    live: "https://myk-benot-amorphis.netlify.app/",
   },
   {
     title: "Movie WatchList",
