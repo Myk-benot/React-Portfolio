@@ -1,9 +1,12 @@
-import React from "react";
-import { BsFillMoonStarsFill } from "react-icons/bs";
+import React from 'react';
+import { BsFillMoonStarsFill } from 'react-icons/bs';
 
 export default function Nav({ toggleDarkMode }) {
   return (
-    <nav className="p-10 mb-12 flex flex-col items-center  sm:flex-row sm:justify-between sm:items-center ">
+    <nav
+      className="p-10 mb-12 flex flex-col items-center  sm:flex-row sm:justify-between sm:items-center"
+      id="nav"
+    >
       <BsFillMoonStarsFill
         className="cursor-pointer text-2xl dark:text-yellow-100 mb-3"
         onClick={() => toggleDarkMode()}

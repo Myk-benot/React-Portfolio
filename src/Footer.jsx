@@ -1,9 +1,10 @@
-import React from "react";
+import React from 'react';
 import {
   AiFillGithub,
   AiFillLinkedin,
   AiFillTwitterSquare,
-} from "react-icons/ai";
+  AiOutlineArrowUp
+} from 'react-icons/ai';
 
 export default function Footer() {
   return (
@@ -35,6 +36,9 @@ export default function Footer() {
           rel="noopener noreferrer"
         >
           <AiFillTwitterSquare />
+        </a>
+        <a className="hover:text-lime-500" href="#nav">
+          <AiOutlineArrowUp />
         </a>
       </div>
     </>
